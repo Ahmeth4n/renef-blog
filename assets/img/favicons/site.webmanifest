@@ -1,28 +1,19 @@
----
-layout: compress
----
-
-{% assign favicon_path = "/assets/img/favicons" | relative_url %}
-
 {
-  "name": "{{ site.title }}",
-  "short_name": "{{ site.title }}",
-  "description": "{{ site.description }}",
+  "name": "renef",
+  "short_name": "renef",
   "icons": [
     {
-      "src": "{{ favicon_path }}/web-app-manifest-192x192.png",
-      "sizes": "192x192",
+      "src": "/assets/img/favicons/favicon-32x32.png",
+      "sizes": "32x32",
       "type": "image/png"
     },
     {
-      "src": "{{ favicon_path }}/web-app-manifest-512x512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "maskable"
+      "src": "/assets/img/favicons/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
     }
   ],
-  "start_url": "{{ '/index.html' | relative_url }}",
-  "theme_color": "#2a1e6b",
+  "theme_color": "#ffffff",
   "background_color": "#ffffff",
-  "display": "fullscreen"
+  "display": "standalone"
 }
