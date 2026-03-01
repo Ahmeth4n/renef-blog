@@ -4,7 +4,7 @@ title: "Renef Handbook: Dynamic Instrumentation Framework for Android"
 date: 2026-02-28
 categories: [android, security, reverse-engineering]
 tags: [renef, android, arm64, hooking, dynamic-instrumentation, lua]
-author: "M. Faris Acar"
+author: mehmetfarisacar
 image: /assets/img/renef-handbook/renef_wallpaper.svg
 ---
 

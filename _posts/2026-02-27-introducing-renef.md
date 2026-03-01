@@ -4,7 +4,6 @@ author: ahmethan
 date: 2026-02-27 12:00:00 +0300
 categories: [Announcements]
 tags: [renef, android, reverse-engineering, arm64]
-pin: true
 ---
 
 ## What is Renef?
